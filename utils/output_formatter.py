@@ -175,6 +175,6 @@ class OutputFormatter:
                 status_val,
                 r.service,
                 r.version,
-                (r.banner[:60] + "…") if len(r.banner) > 60 else r.banner,
+                (r.banner[:80] + "…") if len(r.banner) > 80 else r.banner,
             ])
         print(tabulate(table_data, headers=headers, tablefmt="grid"))

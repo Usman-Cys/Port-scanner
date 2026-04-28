@@ -25,7 +25,7 @@ def _configure_root_logger(log_file: Optional[str] = None, verbose: bool = False
 
     Args:
         log_file: Path to the rotating log file.  Defaults to LOG_FILE.
-        verbose:  If True, set console level to DEBUG.
+        verbose:  If True, set console level to DEBUG; otherwise WARNING.
     """
     global _configured
     if _configured:

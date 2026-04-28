@@ -100,14 +100,14 @@ class TCPScanner:
             try:
                 for future in as_completed(future_map):
                     if self._stop:
-                        executor.shutdown(wait=False, cancel_futures=True)
+                        executor.shutdown(wait=False)
                         break
                     result = future.result()
                     results.append(result)
             except KeyboardInterrupt:
                 logger.warning("KeyboardInterrupt received — stopping scan.")
                 self._stop = True
-                executor.shutdown(wait=False, cancel_futures=True)
+                executor.shutdown(wait=False)
 
         return results
 

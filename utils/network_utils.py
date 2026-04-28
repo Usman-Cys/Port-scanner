@@ -59,13 +59,15 @@ def parse_targets(target_str: str) -> List[str]:
         if "/" in token:
             try:
                 network = ipaddress.IPv4Network(token, strict=False)
-                for ip in network.hosts():
-                    ip_str = str(ip)
-                    if ip_str not in seen:
-                        seen.add(ip_str)
-                        results.append(ip_str)
-                # /32 network has no "hosts()" but the address itself is valid
-                if not list(network.hosts()):
+                host_ips = list(network.hosts())
+                if host_ips:
+                    for ip in host_ips:
+                        ip_str = str(ip)
+                        if ip_str not in seen:
+                            seen.add(ip_str)
+                            results.append(ip_str)
+                else:
+                    # /32 network — hosts() is empty; use the network address itself
                     ip_str = str(network.network_address)
                     if ip_str not in seen:
                         seen.add(ip_str)

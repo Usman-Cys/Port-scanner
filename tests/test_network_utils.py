@@ -101,11 +101,11 @@ class TestParseTargets:
         assert result == ["192.168.1.1", "192.168.1.2"]
 
     def test_cidr_slash30(self):
-        # /30 has 2 usable hosts (network and broadcast are excluded by hosts())
+        # /30 has 2 usable hosts; hosts() returns only .1 and .2
+        # (.0 and .3 are network/broadcast and excluded by hosts())
         result = parse_targets("192.168.1.0/30")
         assert "192.168.1.1" in result
         assert "192.168.1.2" in result
-        # Network address (192.168.1.0) and broadcast (192.168.1.3) are excluded
         assert "192.168.1.0" not in result
         assert "192.168.1.3" not in result
 

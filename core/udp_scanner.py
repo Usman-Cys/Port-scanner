@@ -122,13 +122,13 @@ class UDPScanner:
             try:
                 for future in as_completed(future_map):
                     if self._stop:
-                        executor.shutdown(wait=False, cancel_futures=True)
+                        executor.shutdown(wait=False)
                         break
                     results.append(future.result())
             except KeyboardInterrupt:
                 logger.warning("KeyboardInterrupt — stopping UDP scan.")
                 self._stop = True
-                executor.shutdown(wait=False, cancel_futures=True)
+                executor.shutdown(wait=False)
 
         return results
 
