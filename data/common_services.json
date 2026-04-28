@@ -1,0 +1,596 @@
+{
+  "tcp/1": {
+    "port": 1,
+    "protocol": "tcp",
+    "name": "tcpmux",
+    "description": "TCP Port Service Multiplexer"
+  },
+  "tcp/7": {
+    "port": 7,
+    "protocol": "tcp",
+    "name": "echo",
+    "description": "Echo"
+  },
+  "udp/7": {
+    "port": 7,
+    "protocol": "udp",
+    "name": "echo",
+    "description": "Echo"
+  },
+  "tcp/9": {
+    "port": 9,
+    "protocol": "tcp",
+    "name": "discard",
+    "description": "Discard"
+  },
+  "tcp/11": {
+    "port": 11,
+    "protocol": "tcp",
+    "name": "systat",
+    "description": "Active Users"
+  },
+  "tcp/13": {
+    "port": 13,
+    "protocol": "tcp",
+    "name": "daytime",
+    "description": "Daytime"
+  },
+  "tcp/17": {
+    "port": 17,
+    "protocol": "tcp",
+    "name": "qotd",
+    "description": "Quote of the Day"
+  },
+  "tcp/19": {
+    "port": 19,
+    "protocol": "tcp",
+    "name": "chargen",
+    "description": "Character Generator"
+  },
+  "tcp/20": {
+    "port": 20,
+    "protocol": "tcp",
+    "name": "ftp-data",
+    "description": "File Transfer [Default Data]"
+  },
+  "tcp/21": {
+    "port": 21,
+    "protocol": "tcp",
+    "name": "ftp",
+    "description": "File Transfer Protocol"
+  },
+  "tcp/22": {
+    "port": 22,
+    "protocol": "tcp",
+    "name": "ssh",
+    "description": "Secure Shell"
+  },
+  "tcp/23": {
+    "port": 23,
+    "protocol": "tcp",
+    "name": "telnet",
+    "description": "Telnet"
+  },
+  "tcp/25": {
+    "port": 25,
+    "protocol": "tcp",
+    "name": "smtp",
+    "description": "Simple Mail Transfer"
+  },
+  "tcp/37": {
+    "port": 37,
+    "protocol": "tcp",
+    "name": "time",
+    "description": "Time"
+  },
+  "tcp/43": {
+    "port": 43,
+    "protocol": "tcp",
+    "name": "whois",
+    "description": "Who Is"
+  },
+  "tcp/53": {
+    "port": 53,
+    "protocol": "tcp",
+    "name": "domain",
+    "description": "Domain Name Server"
+  },
+  "udp/53": {
+    "port": 53,
+    "protocol": "udp",
+    "name": "domain",
+    "description": "Domain Name Server"
+  },
+  "udp/67": {
+    "port": 67,
+    "protocol": "udp",
+    "name": "dhcps",
+    "description": "DHCP Server"
+  },
+  "udp/68": {
+    "port": 68,
+    "protocol": "udp",
+    "name": "dhcpc",
+    "description": "DHCP Client"
+  },
+  "udp/69": {
+    "port": 69,
+    "protocol": "udp",
+    "name": "tftp",
+    "description": "Trivial File Transfer"
+  },
+  "tcp/79": {
+    "port": 79,
+    "protocol": "tcp",
+    "name": "finger",
+    "description": "Finger"
+  },
+  "tcp/80": {
+    "port": 80,
+    "protocol": "tcp",
+    "name": "http",
+    "description": "World Wide Web HTTP"
+  },
+  "tcp/88": {
+    "port": 88,
+    "protocol": "tcp",
+    "name": "kerberos",
+    "description": "Kerberos"
+  },
+  "tcp/109": {
+    "port": 109,
+    "protocol": "tcp",
+    "name": "pop2",
+    "description": "Post Office Protocol v2"
+  },
+  "tcp/110": {
+    "port": 110,
+    "protocol": "tcp",
+    "name": "pop3",
+    "description": "Post Office Protocol v3"
+  },
+  "tcp/111": {
+    "port": 111,
+    "protocol": "tcp",
+    "name": "rpcbind",
+    "description": "SUN Remote Procedure Call"
+  },
+  "tcp/113": {
+    "port": 113,
+    "protocol": "tcp",
+    "name": "ident",
+    "description": "Authentication Service"
+  },
+  "tcp/119": {
+    "port": 119,
+    "protocol": "tcp",
+    "name": "nntp",
+    "description": "Network News Transfer Protocol"
+  },
+  "udp/123": {
+    "port": 123,
+    "protocol": "udp",
+    "name": "ntp",
+    "description": "Network Time Protocol"
+  },
+  "tcp/135": {
+    "port": 135,
+    "protocol": "tcp",
+    "name": "msrpc",
+    "description": "Microsoft RPC"
+  },
+  "udp/137": {
+    "port": 137,
+    "protocol": "udp",
+    "name": "netbios-ns",
+    "description": "NetBIOS Name Service"
+  },
+  "udp/138": {
+    "port": 138,
+    "protocol": "udp",
+    "name": "netbios-dgm",
+    "description": "NetBIOS Datagram Service"
+  },
+  "tcp/139": {
+    "port": 139,
+    "protocol": "tcp",
+    "name": "netbios-ssn",
+    "description": "NetBIOS Session Service"
+  },
+  "tcp/143": {
+    "port": 143,
+    "protocol": "tcp",
+    "name": "imap",
+    "description": "Internet Message Access Protocol"
+  },
+  "udp/161": {
+    "port": 161,
+    "protocol": "udp",
+    "name": "snmp",
+    "description": "SNMP"
+  },
+  "udp/162": {
+    "port": 162,
+    "protocol": "udp",
+    "name": "snmptrap",
+    "description": "SNMPTRAP"
+  },
+  "tcp/179": {
+    "port": 179,
+    "protocol": "tcp",
+    "name": "bgp",
+    "description": "Border Gateway Protocol"
+  },
+  "tcp/194": {
+    "port": 194,
+    "protocol": "tcp",
+    "name": "irc",
+    "description": "Internet Relay Chat"
+  },
+  "tcp/201": {
+    "port": 201,
+    "protocol": "tcp",
+    "name": "at-rtmp",
+    "description": "AppleTalk Routing Maintenance"
+  },
+  "tcp/389": {
+    "port": 389,
+    "protocol": "tcp",
+    "name": "ldap",
+    "description": "Lightweight Directory Access Protocol"
+  },
+  "tcp/443": {
+    "port": 443,
+    "protocol": "tcp",
+    "name": "https",
+    "description": "HTTP over TLS/SSL"
+  },
+  "tcp/445": {
+    "port": 445,
+    "protocol": "tcp",
+    "name": "microsoft-ds",
+    "description": "SMB"
+  },
+  "tcp/465": {
+    "port": 465,
+    "protocol": "tcp",
+    "name": "smtps",
+    "description": "SMTP over SSL"
+  },
+  "udp/500": {
+    "port": 500,
+    "protocol": "udp",
+    "name": "isakmp",
+    "description": "ISAKMP / IKE"
+  },
+  "tcp/514": {
+    "port": 514,
+    "protocol": "tcp",
+    "name": "shell",
+    "description": "Remote Shell"
+  },
+  "udp/514": {
+    "port": 514,
+    "protocol": "udp",
+    "name": "syslog",
+    "description": "Syslog"
+  },
+  "tcp/515": {
+    "port": 515,
+    "protocol": "tcp",
+    "name": "printer",
+    "description": "Line Printer Daemon"
+  },
+  "udp/520": {
+    "port": 520,
+    "protocol": "udp",
+    "name": "route",
+    "description": "RIP"
+  },
+  "tcp/554": {
+    "port": 554,
+    "protocol": "tcp",
+    "name": "rtsp",
+    "description": "Real Time Streaming Protocol"
+  },
+  "tcp/587": {
+    "port": 587,
+    "protocol": "tcp",
+    "name": "submission",
+    "description": "SMTP Mail Submission"
+  },
+  "tcp/631": {
+    "port": 631,
+    "protocol": "tcp",
+    "name": "ipp",
+    "description": "Internet Printing Protocol"
+  },
+  "tcp/636": {
+    "port": 636,
+    "protocol": "tcp",
+    "name": "ldaps",
+    "description": "LDAP over SSL"
+  },
+  "tcp/873": {
+    "port": 873,
+    "protocol": "tcp",
+    "name": "rsync",
+    "description": "rsync"
+  },
+  "tcp/993": {
+    "port": 993,
+    "protocol": "tcp",
+    "name": "imaps",
+    "description": "IMAP over SSL"
+  },
+  "tcp/995": {
+    "port": 995,
+    "protocol": "tcp",
+    "name": "pop3s",
+    "description": "POP3 over SSL"
+  },
+  "tcp/1080": {
+    "port": 1080,
+    "protocol": "tcp",
+    "name": "socks",
+    "description": "SOCKS"
+  },
+  "udp/1194": {
+    "port": 1194,
+    "protocol": "udp",
+    "name": "openvpn",
+    "description": "OpenVPN"
+  },
+  "tcp/1433": {
+    "port": 1433,
+    "protocol": "tcp",
+    "name": "ms-sql-s",
+    "description": "Microsoft SQL Server"
+  },
+  "udp/1434": {
+    "port": 1434,
+    "protocol": "udp",
+    "name": "ms-sql-m",
+    "description": "Microsoft SQL Server Monitor"
+  },
+  "tcp/1521": {
+    "port": 1521,
+    "protocol": "tcp",
+    "name": "oracle",
+    "description": "Oracle DB"
+  },
+  "tcp/1723": {
+    "port": 1723,
+    "protocol": "tcp",
+    "name": "pptp",
+    "description": "PPTP"
+  },
+  "tcp/1883": {
+    "port": 1883,
+    "protocol": "tcp",
+    "name": "mqtt",
+    "description": "MQTT"
+  },
+  "tcp/2049": {
+    "port": 2049,
+    "protocol": "tcp",
+    "name": "nfs",
+    "description": "Network File System"
+  },
+  "tcp/2181": {
+    "port": 2181,
+    "protocol": "tcp",
+    "name": "zookeeper",
+    "description": "Apache ZooKeeper"
+  },
+  "tcp/2375": {
+    "port": 2375,
+    "protocol": "tcp",
+    "name": "docker",
+    "description": "Docker REST API"
+  },
+  "tcp/2376": {
+    "port": 2376,
+    "protocol": "tcp",
+    "name": "docker-tls",
+    "description": "Docker TLS"
+  },
+  "tcp/3000": {
+    "port": 3000,
+    "protocol": "tcp",
+    "name": "ppp",
+    "description": "Various dev servers"
+  },
+  "tcp/3306": {
+    "port": 3306,
+    "protocol": "tcp",
+    "name": "mysql",
+    "description": "MySQL"
+  },
+  "tcp/3389": {
+    "port": 3389,
+    "protocol": "tcp",
+    "name": "ms-wbt-server",
+    "description": "RDP / Windows Terminal Services"
+  },
+  "tcp/3690": {
+    "port": 3690,
+    "protocol": "tcp",
+    "name": "svn",
+    "description": "Subversion"
+  },
+  "tcp/4443": {
+    "port": 4443,
+    "protocol": "tcp",
+    "name": "pharos",
+    "description": "Pharos"
+  },
+  "tcp/4444": {
+    "port": 4444,
+    "protocol": "tcp",
+    "name": "krb524",
+    "description": "Kerberos 5 to 4"
+  },
+  "tcp/5000": {
+    "port": 5000,
+    "protocol": "tcp",
+    "name": "upnp",
+    "description": "UPnP"
+  },
+  "tcp/5432": {
+    "port": 5432,
+    "protocol": "tcp",
+    "name": "postgresql",
+    "description": "PostgreSQL"
+  },
+  "tcp/5900": {
+    "port": 5900,
+    "protocol": "tcp",
+    "name": "vnc",
+    "description": "VNC"
+  },
+  "tcp/5901": {
+    "port": 5901,
+    "protocol": "tcp",
+    "name": "vnc-1",
+    "description": "VNC #1"
+  },
+  "tcp/6379": {
+    "port": 6379,
+    "protocol": "tcp",
+    "name": "redis",
+    "description": "Redis"
+  },
+  "tcp/6443": {
+    "port": 6443,
+    "protocol": "tcp",
+    "name": "sun-sr-https",
+    "description": "Kubernetes API"
+  },
+  "tcp/6667": {
+    "port": 6667,
+    "protocol": "tcp",
+    "name": "irc",
+    "description": "IRC"
+  },
+  "tcp/7001": {
+    "port": 7001,
+    "protocol": "tcp",
+    "name": "afs3-callback",
+    "description": "WebLogic"
+  },
+  "tcp/7443": {
+    "port": 7443,
+    "protocol": "tcp",
+    "name": "oracleas-https",
+    "description": "Oracle AS HTTPS"
+  },
+  "tcp/8000": {
+    "port": 8000,
+    "protocol": "tcp",
+    "name": "http-alt",
+    "description": "HTTP Alternate"
+  },
+  "tcp/8080": {
+    "port": 8080,
+    "protocol": "tcp",
+    "name": "http-proxy",
+    "description": "HTTP Proxy"
+  },
+  "tcp/8443": {
+    "port": 8443,
+    "protocol": "tcp",
+    "name": "https-alt",
+    "description": "HTTPS Alternate"
+  },
+  "tcp/8888": {
+    "port": 8888,
+    "protocol": "tcp",
+    "name": "ddi-tcp-1",
+    "description": "Jupyter / HTTP alt"
+  },
+  "tcp/9000": {
+    "port": 9000,
+    "protocol": "tcp",
+    "name": "cslistener",
+    "description": "PHP-FPM / SonarQube"
+  },
+  "tcp/9092": {
+    "port": 9092,
+    "protocol": "tcp",
+    "name": "XmlIpcRegSvc",
+    "description": "Apache Kafka"
+  },
+  "tcp/9200": {
+    "port": 9200,
+    "protocol": "tcp",
+    "name": "wap-wsp",
+    "description": "Elasticsearch"
+  },
+  "tcp/9300": {
+    "port": 9300,
+    "protocol": "tcp",
+    "name": "vrace",
+    "description": "Elasticsearch transport"
+  },
+  "tcp/10000": {
+    "port": 10000,
+    "protocol": "tcp",
+    "name": "ndmp",
+    "description": "Webmin"
+  },
+  "tcp/11211": {
+    "port": 11211,
+    "protocol": "tcp",
+    "name": "memcache",
+    "description": "Memcached"
+  },
+  "tcp/27017": {
+    "port": 27017,
+    "protocol": "tcp",
+    "name": "mongod",
+    "description": "MongoDB"
+  },
+  "tcp/27018": {
+    "port": 27018,
+    "protocol": "tcp",
+    "name": "mongod",
+    "description": "MongoDB"
+  },
+  "tcp/50000": {
+    "port": 50000,
+    "protocol": "tcp",
+    "name": "ibm-db2",
+    "description": "IBM DB2"
+  },
+  "tcp/5672": {
+    "port": 5672,
+    "protocol": "tcp",
+    "name": "amqp",
+    "description": "AMQP (RabbitMQ)"
+  },
+  "tcp/5671": {
+    "port": 5671,
+    "protocol": "tcp",
+    "name": "amqps",
+    "description": "AMQP over TLS"
+  },
+  "tcp/15672": {
+    "port": 15672,
+    "protocol": "tcp",
+    "name": "amqp-mgmt",
+    "description": "RabbitMQ Management"
+  },
+  "tcp/2222": {
+    "port": 2222,
+    "protocol": "tcp",
+    "name": "EtherNetIP-1",
+    "description": "SSH Alt"
+  },
+  "tcp/8022": {
+    "port": 8022,
+    "protocol": "tcp",
+    "name": "oa-system",
+    "description": "SSH Alt"
+  }
+}
